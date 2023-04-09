@@ -1,0 +1,36 @@
+*{
+    padding: 0 px;
+    margin: 0 px;
+}
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container{
+    /* padding-bottom: 25px; */
+    /* padding: auto; */
+    max-height: 100%;
+    max-width: 100%;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&psig=AOvVaw37U6cnoplrDUTx6m3CBSK7&ust=1678112351806000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCICMxvb9xP0CFQAAAAAdAAAAABAE);
+    /* background-image: url(""); */
+}
+body{
+    max-height: 150%;
+
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+li .card:hover {
+    border: 1px solid blue;
+}
+
+ol {
+    padding: 0;
+}  
+

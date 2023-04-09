@@ -1,0 +1,98 @@
+<div class="container-fluid w-100 h-100" style="background-color: #F5E9CF;">
+  <section style="background-color: #6A7EFC; height: 100%;" class="h-100">
+    <div class="container py-5 mt-0 justify-content-center  ">
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body text-center">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
+                class="rounded-circle img-fluid" style="width: 150px;">
+              <h5 class="my-3">{{name}}</h5>
+              <div class="d-flex justify-content-center mb-2">
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-8">
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Full Name</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">{{name}}</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0">{{email}}</p>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card  mb-md-0">
+                <div class="card-body">
+                  <p class="mb-4"><span class="text-primary font-italic me-1"></span> Quiz Status
+                  </p>
+
+                  <p class="mb-1" style="font-size: .77rem;">Quiz 1</p>
+                  <div class="progress rounded" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" #pb1 aria-valuenow= "0" aria-valuemin="0"
+                      aria-valuemax="80"></div>
+                  </div>
+                  <p class="mt-4 mb-1" style="font-size: .77rem;">Quiz 2</p>
+                  <div class="progress rounded" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" #pb2 aria-valuenow="score2" aria-valuemin="0"
+                      aria-valuemax="80"></div>
+                  </div>
+                  <p class="mt-4 mb-1" style="font-size: .77rem;">Quiz 3</p>
+                  <div class="progress rounded" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" #pb3 aria-valuenow="score3" aria-valuemin="0"
+                      aria-valuemax="80"></div>
+                  </div>
+                  <p class="mt-4 mb-1" style="font-size: .77rem;">Quiz 4</p>
+                  <div class="progress rounded" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" #pb4 aria-valuenow="score4" aria-valuemin="0"
+                      aria-valuemax="80"></div>
+                  </div>
+                  <p class="mt-4 mb-1" style="font-size: .77rem;">Quiz 5</p>
+                  <div class="progress rounded mb-2" style="height: 5px;">
+                    <div class="progress-bar" role="progressbar" #pb5 aria-valuenow="score5" aria-valuemin="0"
+                      aria-valuemax="80"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
